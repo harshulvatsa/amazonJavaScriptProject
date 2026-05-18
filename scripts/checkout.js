@@ -5,7 +5,7 @@ import { loadCart } from "../data/cart.js";
 //import '../data/cart-class.js';
 
 async function loadPage() {
-  try{
+  try {
     //throw 'error1';
     await loadProductsFetch();
 
@@ -16,8 +16,8 @@ async function loadPage() {
         resolve('value3');
       });
     });
-
-  } catch(error) {
+    // avada kadavra
+  } catch (error) {
     console.log('unexpected error. Please try again later.');
   }
 

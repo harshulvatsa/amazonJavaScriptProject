@@ -20,7 +20,7 @@
 /* @media is used to create responsive design (making the
    website look good on any screen size). This @media
    means when the screen width is 2000px or less, we
-   will divide the grid into 7 columns instead of 8. */
+   will divide the grid into 7 columns instead of 8. ok*/
 @media (max-width: 2000px) {
   .products-grid {
     grid-template-columns: repeat(7, 1fr);
